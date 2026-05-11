@@ -72,8 +72,9 @@ Design tokens (from the spec):
 
 ## What not to do
 
-- **Do not add a top navigation bar.**
 - **Do not add a footer or bottom bar.**
+- Keep the topbar minimal — one link to the sibling FileDrop app. Do not
+  add a wordmark, logo, or additional nav items without an ADR.
 - Do not introduce build tooling (Vite, webpack, etc.) — keep it static.
 - Do not load remote images.
 - Do not add new pages.

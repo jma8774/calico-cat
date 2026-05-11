@@ -19,7 +19,13 @@ calico-cat/
 
 ## Page sections (top to bottom)
 
-There is **no top nav** and **no footer**. The page is a single centered hero.
+There is a **minimal topbar** with one nav link. There is **no footer**.
+
+`<header class="topbar">` contains:
+
+- `<nav class="topbar__nav">` with a single `<a class="topbar__link">` —
+  text "FileDrop", href `https://filedrop.cutecalico.com/`. Right-aligned
+  on desktop and mobile. Small padding, hover/focus styles.
 
 `<main class="page">` contains only:
 

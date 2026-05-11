@@ -17,17 +17,17 @@ the original spec into a richer landing page (nav, footer, CTAs, decorations).
 ## Core user flows
 
 1. Visitor loads the page.
-2. Visitor sees: a centered serif headline with a small accent heart, and
-   the framed calico photo below it. Subtle botanical line-art flanks the
-   photo on desktop.
-3. There is nothing else on the page — no nav, no pill, no subtitle, no
-   cat name, no description, no buttons, no footer.
-4. On mobile, the layout reflows: image scales to width and botanicals
-   are hidden.
+2. Visitor sees: a minimal topbar with one link ("FileDrop" → the sibling
+   app at `filedrop.cutecalico.com`), then a centered serif headline with
+   a small accent heart, and the framed calico photo below it. Subtle
+   botanical line-art flanks the photo on desktop.
+3. There is no pill, subtitle, cat name, description, CTA buttons, or
+   footer.
+4. On mobile, the layout reflows: topbar shrinks, image scales to width,
+   and botanicals are hidden.
 
 ## Non-goals
 
-- **No top navigation bar.**
 - **No footer.**
 - **No pill / chip above the headline.**
 - **No subtitle below the headline.**
