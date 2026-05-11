@@ -29,9 +29,11 @@ There is **no top nav** and **no footer**. The page is a single centered hero.
   - the `<h1>` headline absolutely positioned at the **bottom-left** of the
     image as an overlay, with a small trailing accent heart (`.h1-heart`).
 
-**Decorative SVG botanicals** (`.botanical--left`, `.botanical--right`) are
-absolutely-positioned to the left and right of the hero, behind the content,
-hidden on mobile.
+**Decorative leaf stems** (`.leaf.leaf-left`, `.leaf.leaf-right`) are
+absolutely-positioned in the bottom corners of `.page`, behind the content
+(`z-index: 0`), rotated and mirrored for visual balance. `.page` uses
+`overflow: hidden` so the stems clip cleanly at the viewport edge. The
+stems are hidden on mobile.
 
 ## Major modules
 
